@@ -5,6 +5,7 @@ git add {fileName} - used to add an untracked file to the staging area
 git add . - used to add all untracked files under the current directory to the staging area
 git commit -m "commit message" - used to commit the changes in the staging area with a
 git log - used to show commit log/history
+git checkout {fileName} - This is used to revert the file to a previous saved version
 git init - initialises the git repository in the working directory
 
 The staging area is an area that contains files that are ready to be commited.
