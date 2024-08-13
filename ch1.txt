@@ -1,1 +1,7 @@
-My nigga is a bitch
+he is a nigga
+
+git status - used to show the status of the repository
+git add {fileName} - used to add an untracked file to the staging area
+git add . - used to add all untracked files under the current directory to the staging area
+git commit -m "commit message" - used to commit the changes in the staging area with a
+git log - used to show commit log
