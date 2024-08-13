@@ -7,9 +7,12 @@ git commit -m "commit message" - used to commit the changes in the staging area 
 git log - used to show commit log/history
 git checkout {fileName} - This is used to revert the file to a previous saved version
 git init - initialises the git repository in the working directory
+git rm --cached {fileName} - removes a file from the staging area
+git rm --cached -r . - removes all files in the staging area
 
 The staging area is an area that contains files that are ready to be commited.
 files not in the staging area are not commited
 
 git remote add origin {remote repository URL} - connects local repo to remote repo
-git push -u origin main - pushes/uploads local repo to remote repo
+git push -u origin {branch name} - pushes/uploads local repo to remote repo
+
