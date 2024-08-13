@@ -16,6 +16,7 @@ git branch {brachName} - creates a branch
 git merge {branchName} - merges a branch to the main branch
 git branch -d {branchName} - deletes a branch
 git branch - shows a list of branches and currently active branch
+git checkout {brachName} - switches to specified branch
 
 The staging area is an area that contains files that are ready to be commited.
 files not in the staging area are not commited
