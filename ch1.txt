@@ -11,6 +11,13 @@ git rm --cached {fileName} - removes a file from the staging area
 git rm --cached -r . - removes all files in the staging area
 git diff {fileName} - shows difference between file and prev saved version of file
 
+git clone {URL} - clones the repo at url to local environment
+git branch {brachName} - creates a branch
+git merge {branchName} - merges a branch to the main branch
+git branch -d {branchName} - deletes a branch
+git branch - shows a list of branches and currently active branch
+git checkout {brachName} - switches to specified branch
+
 The staging area is an area that contains files that are ready to be commited.
 files not in the staging area are not commited
 
